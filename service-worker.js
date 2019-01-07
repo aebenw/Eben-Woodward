@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "ebenwoodward.com/precache-manifest.6830ce7db8193a17adf4e5588296aa38.js"
+  "ebenwoodward.com/precache-manifest.c5a8c28fbb28eb8ce22671266ae76a68.js"
 );
 
 workbox.clientsClaim();
