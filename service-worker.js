@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "ebenwoodward.com/precache-manifest.c5a8c28fbb28eb8ce22671266ae76a68.js"
+  "/personal-site/precache-manifest.f8239ca6c7675f558b60283af2e1a856.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("ebenwoodward.com/index.html", {
+workbox.routing.registerNavigationRoute("/personal-site/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
